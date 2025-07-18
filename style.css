@@ -1,0 +1,259 @@
+
+*{
+    margin: 1px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    height: 30px;
+    width : 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.logo-container{
+    height: 30px;
+    width: 50px;
+    margin-left: 30px;
+    
+}
+
+.logo-container img{
+    height: 100%;
+    width:auto;
+}
+
+
+  
+   
+.nav-items ul{
+    margin-right: 30px;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+    
+    
+}
+.nav-items li:not(:first-child) {
+    border-left: 1px solid gray; 
+    
+}
+
+.nav-items > ul > li{
+    padding:0px 15px;
+}
+
+.header2{
+    height: 60px;
+    width:100%;
+    background-color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+
+}
+
+.img2{
+    height: 30px;
+    width: 70px;
+    margin-left: 30px;
+    display: flex;
+    
+    align-items: center;
+    
+}
+
+.img2 img{
+    height: 100%;
+    width: auto;
+    
+}
+
+.Items-category{
+   
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Items-category ul {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+    list-style: none; 
+    margin-left: 110px; 
+    font-size: 19px;
+}
+.search{
+    width: 70px; 
+    margin-right: 30px;
+}
+
+.search-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+    margin-right: 30px;
+}
+.header3{
+    height: 60px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+.card{
+    height: 400px;
+    width:300px;
+    border: 2px solid black;
+   
+  
+}
+.card-image{
+    height: 290px;
+    border: 1px solid black;
+}
+.SideBar {
+    width: 220px;
+    min-width: 180px;
+    max-width: 260px;
+    height: 120vh;
+    overflow-y: auto;
+    background: #fff;
+    border-right: 1px solid #eee;
+   
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+
+    display: block;
+}
+
+.header4{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+.button{
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+    gap: 10px;
+}
+.button button {
+    background-color: transparent;
+    border: none;      
+    font-size: 16px;        
+    cursor: pointer;
+    padding: 8px 12px;               
+    font-weight: 500; 
+}
+
+.listify{
+    width:300px;
+    background-color: whitesmoke;
+    top: 230px;
+    padding: 10px;
+
+    max-height: 80vh; /* or any height you want */
+    overflow-y: auto;    /* enable vertical scrolling */
+ 
+      
+      
+    
+    
+    font-size: 18px;
+    list-style: none;
+}
+
+.listify ul{
+    margin: 1px;
+    list-style-type: none;
+    padding: 2x;
+}
+.listify ul li{
+    margin: 2px;
+    padding: 2px;
+    cursor:pointer;
+}
+.listify::-webkit-scrollbar {
+    width: 6px;
+}
+  
+.listify::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+.bodyContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 32px 0 0 0;
+    background: #fafafa;
+    min-height: 100vh;
+}
+
+.itemCardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 32px;
+    width: 100%;
+    padding: 0 32px 32px 0;
+    box-sizing: border-box;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: box-shadow 0.2s;
+    min-width: 0;
+}
+.card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+}
+.card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 16px;
+    background: #f7f7f7;
+    border-radius: 4px;
+}
+.card h3 {
+    font-size: 1.1rem;
+    margin: 0 0 8px 0;
+}
+h4{
+    font-weight: 0;
+}
+
+
